@@ -1,11 +1,11 @@
-# karma-vite
+# karma-vite4
 
 > A karma plugin. Transform es module by using vite.
 
 ## Installation
 
 ```bash
-npm install -D karma karma-vite
+npm install -D karma karma-vite4
 ```
 
 ## Example
@@ -16,8 +16,8 @@ npm install -D karma karma-vite
 // karma.conf.js
 module.exports = (config) => {
   config.set({
-    plugins: ['karma-vite', 'karma-jasmine'],
-    frameworks: ['vite', 'jasmine'],
+    plugins: ['karma-vite4', 'karma-jasmine'],
+    frameworks: ['vite4', 'jasmine'],
     files: [
       {
         pattern: 'test/**/*.spec.ts',
